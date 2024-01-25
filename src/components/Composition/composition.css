@@ -1,0 +1,51 @@
+.mainBoxCom {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h1Com {
+  font-size: 60px;
+  text-align: center;
+  color: white;
+}
+
+.imgCom {
+  height: 210px;
+  width: 100%;
+  border-radius: 30px;
+}
+
+.grid-containerCom {
+  display: grid;
+  column-gap: 50px;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.grid-itemCom {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+@media (max-width: 860px) {
+  .imgCom {
+    height: 200px;
+    width: 260px;
+  }
+
+  .grid-containerCom {
+    display: block;
+  }
+
+  .grid-itemCom {
+    border: none;
+    padding: 20px;
+  }
+}

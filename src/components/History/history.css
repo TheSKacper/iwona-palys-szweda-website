@@ -1,0 +1,158 @@
+.containerMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: black;
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+}
+
+.boxHistory {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.h1History {
+  color: white;
+  margin-top: 2%;
+}
+
+.textHistory {
+  display: flex;
+  width: 1000px;
+  margin-top: 80px;
+}
+
+.imgHistory {
+  width: 100%;
+  height: 300px;
+  margin-right: 5%;
+}
+
+.pHistory {
+  color: white;
+  font-size: 25px;
+  line-height: 35px;
+  padding: 20px;
+}
+
+.double {
+  display: flex;
+  flex-direction: column;
+}
+
+.doublePictures {
+  display: flex;
+  margin-bottom: 2%;
+}
+
+.twoPictures {
+  display: flex;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.four {
+  display: flex;
+  flex-direction: column;
+}
+
+.eight {
+  display: flex;
+  flex-direction: column;
+}
+
+.eightPictures {
+  display: flex;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.third {
+  display: flex;
+  flex-direction: column;
+}
+
+.thirdPictures {
+  display: flex;
+  margin-bottom: 2%;
+}
+
+@media (max-width: 1080px) {
+
+  .textHistory {
+    display: flex;
+    flex-direction: column;
+    width: 87%;
+  }
+
+  .imgHistory {
+    width: 250px;
+    height: 300px;
+  }
+
+  .pHistory {
+    color: white;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 5px;
+    margin-top: 20px;
+    width: 260px;
+  }
+
+  .double {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .doublePictures {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2%;
+  }
+  .doublePictures .imgHistory {
+    margin-top: 20px;
+  }
+
+  .twoPictures {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2%;
+  }
+
+  .twoPictures .imgHistory {
+    margin-top: 20px;
+  }
+
+  .four {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .eight {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .eightPictures {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .third {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .thirdPictures {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2%;
+  }
+}

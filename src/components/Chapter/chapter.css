@@ -1,0 +1,39 @@
+.containerChapter {
+  width: 100%;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pChapter {
+  font-size: 20px;
+  line-height: 30px;
+  margin: 10px;
+  width: 87%;
+  text-align: center;
+}
+
+.h1Chapter {
+  color: white;
+  margin-top: 3%;
+}
+
+.h2Chapter {
+  margin: 20px;
+  color: white;
+}
+
+.pictureText {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imgChapter {
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+}

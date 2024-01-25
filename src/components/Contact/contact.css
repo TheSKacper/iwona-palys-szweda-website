@@ -1,0 +1,84 @@
+.container1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../../assets/home/test1.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.boxContact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid blue;
+  border-radius: 30px;
+  background: white;
+}
+
+.leftContact {
+  flex-basis: 50%;
+  margin: 10px;
+  padding: 20px;
+  border-right: 1px solid black;
+  line-height: 80px;
+}
+
+.rightContact {
+  margin: 10px;
+  padding: 20px;
+}
+
+.h1Contact {
+  color: black;
+  font-size: 50px;
+}
+
+.input-group {
+  margin-top: 10px;
+}
+
+.textarea {
+  margin-top: 10px;
+}
+
+.btn {
+  margin-top: 10px;
+}
+
+.icon {
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 27px;
+}
+
+span {
+  font-size: 27px;
+}
+
+@media (max-width: 700px)
+{
+  .h1Contact
+  {
+    color: red;
+  }
+
+  a 
+  {
+    font-size: 19px;
+  }
+
+  .boxContact {
+    display: block;
+    margin: 20px;
+  }
+}
