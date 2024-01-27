@@ -1,6 +1,6 @@
 
 import Navbar from './shared/Navbar';
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Author from './components/Author/Author';
 import Chapter from './components/Chapter/Chapter';
 import Composition from './components/Composition/Composition';
@@ -11,7 +11,7 @@ import WorkShop from './components/WorkShop/WorkShop';
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter >
       <Navbar/>
       <Routes>
         <Route path="/" element={<Home/>}></Route>
@@ -22,7 +22,7 @@ function App() {
         <Route path="/workshop" element={<WorkShop/>}></Route>
         <Route path="/contact" element={<Contact/>}></Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
