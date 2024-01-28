@@ -2,7 +2,7 @@
   width: 100%;
   height: auto;
   min-height: 100vh;
-  background: rgb(34, 6, 156);
+  background: black;
   display: flex;
   justify-content: center;
 }
