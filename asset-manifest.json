@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/iwona-palys-szweda-website/static/css/main.fe0c349e.css",
-    "main.js": "/iwona-palys-szweda-website/static/js/main.f9c40414.js",
+    "main.css": "/iwona-palys-szweda-website/static/css/main.186b77fa.css",
+    "main.js": "/iwona-palys-szweda-website/static/js/main.2d281604.js",
     "static/media/20230327_185443.jpg": "/iwona-palys-szweda-website/static/media/20230327_185443.141d29e27642f39252b9.jpg",
     "static/media/20230327_185431.jpg": "/iwona-palys-szweda-website/static/media/20230327_185431.57fdb8af5b7f178a2cd8.jpg",
     "static/media/Razem 4.jpg": "/iwona-palys-szweda-website/static/media/Razem 4.705de3c55d50696bfc57.jpg",
@@ -125,11 +125,11 @@
     "static/media/T1.JPG": "/iwona-palys-szweda-website/static/media/T1.69ca6d40cb52bfd13560.JPG",
     "static/media/Strona 2 zdjecie 2.JPG": "/iwona-palys-szweda-website/static/media/Strona 2 zdjecie 2.2f79132d6a45abd19043.JPG",
     "index.html": "/iwona-palys-szweda-website/index.html",
-    "main.fe0c349e.css.map": "/iwona-palys-szweda-website/static/css/main.fe0c349e.css.map",
-    "main.f9c40414.js.map": "/iwona-palys-szweda-website/static/js/main.f9c40414.js.map"
+    "main.186b77fa.css.map": "/iwona-palys-szweda-website/static/css/main.186b77fa.css.map",
+    "main.2d281604.js.map": "/iwona-palys-szweda-website/static/js/main.2d281604.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe0c349e.css",
-    "static/js/main.f9c40414.js"
+    "static/css/main.186b77fa.css",
+    "static/js/main.2d281604.js"
   ]
 }
